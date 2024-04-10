@@ -1,0 +1,23 @@
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    text-decoration-color:aquamarine;
+    text-decoration-style: solid;
+    text-decoration-thickness:5px;
+    text-indent:20px;
+    text-overflow: ellipsis; 
+    text-align: center;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height:4;
+    text-decoration: underline;
+}
+h2{
+    text-transform: capitalize;
+}
+/* capitalize first letter */
+/* if you want to capitalize all letter text-transform:uppercase  */
