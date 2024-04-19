@@ -1,0 +1,12 @@
+.myPara {
+
+    color: rgb(39, 149, 244);
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.newClass {
+    background-color: yellow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

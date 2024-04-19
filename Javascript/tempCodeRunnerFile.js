@@ -1,3 +1,3 @@
-let fooitem = ["Spinach, Tomatoes, Grapes, Bananas, Oranges, Cod"];
-
-console.log("After unshift:", fooitem.unshift("Rice"))
+arr.forEach(function printValue(val) {
+//     console.log(val);
+// })
