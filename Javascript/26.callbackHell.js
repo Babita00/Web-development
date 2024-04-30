@@ -22,8 +22,7 @@ getData(1, () => {
             getData(4)
         })
     })
-},
-);
+});
 //this is very hard to understand
 // even developer get probem in understanding the logic
 //so this is call callback hell
