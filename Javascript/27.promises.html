@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises</title>
+</head>
+
+<body>
+    <h1>Promises</h1>
+    <h5>Promise is for “eventual” completion of task. It is an object in JS.</h5>
+    <p>It is a solution to callback hell.</p>
+    <i>SYNTAX:</i>
+    <h2>
+        let promise = new Promise( (resolve, reject) => { .... } )
+    </h2>
+    <p>
+        A JavaScript Promise object can be:
+        <br>
+        Pending : the result is undefined
+        <br>
+
+        Resolved : the result is a value (fulfilled)
+        <br>
+
+        Rejected : the result is an error object
+        <br>
+
+        resolve( result )
+        <br>
+
+        reject( error )
+        <br>
+
+        *Promise has state (pending, fulfilled) & some <br>
+
+        result (result for resolve & error for reject).
+
+    </p>
+</body>
+<!-- <script src="27.promises.js"></script> -->
+<script src="28.promiseHandle.js"></script>
+
+</html>
