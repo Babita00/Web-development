@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: aqua;
+}
+
+.box1 {
+    color: yellow;
+    padding: 10px;
+    margin:2px;
+    border: 2px solid purple;
+    height:200px;
+    box-sizing: border-box;
+    /* the box-sizing: border-box;  includes border and padding only margin does not include.*/
+
+}
+
+.box2 {
+    color: red;
+    padding: 5px;
+    margin: 2px;
+    border:2px solid blue;
+}
