@@ -1,0 +1,41 @@
+h1{
+    background-color: aquamarine;
+    color:purple;
+    box-sizing: border-box;
+    border: 2px solid black;
+    width:80vw;
+    /* height: 60vw; */
+    margin:23px auto;
+    font-size: 2em;
+}
+
+.Importance{
+    color: blue !important;
+    font-size: 18px;
+  }
+  
+  .Importance{
+    color: red;
+  }
+  .Specificity {
+    font-size: large;
+    color:blueviolet;
+   
+  }
+  .position{
+    color:rgb(128, 70, 215);
+    font-size: 24px;
+  }
+  .Origin{
+    color:rgb(14, 190, 132);
+  }
+
+img{
+    width:50%;
+    margin:20px;
+    padding:1px;
+    align-items: center;
+
+    border: 1px solid #ccc; /* Add a border to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

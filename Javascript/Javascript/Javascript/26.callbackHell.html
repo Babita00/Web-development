@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback Hell</title>
+</head>
+
+<body>
+    <p>Nested callbacks stacked below one another forming a pyramid structure.</p>
+    (Pyramid of Doom)
+
+    <p>
+        This style of programming becomes difficult to understand & manage.
+    </p>
+    <h3>
+        getData(1, () => {
+        <br>
+
+        console.log("getting data 2........")
+        <br>
+        getData(2, () => {<br>
+        console.log("getting data 3........")<br>
+        getData(3, () => {<br>
+        console.log("getting data 4.........")<br>
+        getData(4)<br>
+        })<br>
+        })<br>
+        },<br>
+        );<br>
+    </h3>
+    <p>This is callback hell</p>
+    <h4>To solve this callback hell we get new method called promises....</h4>
+</body>
+<script src="26.callbackHell.js"></script>
+
+</html>

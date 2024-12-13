@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <link rel="stylesheet" href="CSS Specificity.css">
+</head>
+
+<body>
+    <div>
+        <!--there are 3 class 1 2 and 3.class are seperated by space-->
+        <h1 class="one two three ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, magnam?</h1>
+    </div>
+    <div>
+        <p class="position">
+            Position and order of appearance: The order in which your CSS rules appear
+            If there are two rules that have selectors of identical specificity, the last one to be declared won.
+        </p>
+        <p class="Specificity">
+        Specificity: In algorithm that determines which CSS selector has the strongest match.
+        CSS specificity determines which style rules get applied to an element when there are conflicts.
+        Higher specificity means the style will be used.
+        It's calculated based on a point system involving inline styles, IDs, classes, and tag names.
+        </p>
+        <p class="Origin">
+            Origin: The order in which CSS appears and where it comes from, whether that is a browser style, CSS from a
+            browser extension, or your authored CSS
+        </p>
+        <p class="Importance">
+            Importance: some CSS rules are weighted more heavily than others, especially with the !important rule type.
+            The !important flag in CSS is used to give a particular style rule the highest level of importance,
+            overriding any other competing styles.
+            When you add !important to a CSS rule, it will take precedence over
+            other rules affecting the same element, regardless of their specificity. For example, if you have:
+        </p>
+    </div>
+    <img src="CSS Specificity.png.png">
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Forms</title>
+</head>
+<body>
+    <h1>Fill your details</h1>
+    <form>
+        <div>
+        <label>Username</label>
+        <input type="text" required id="username" name="username" placeholder="Enter your Username" autofocus>
+    </div>
+    <div>
+        <label>Gender</label>
+        <input type="radio" name="gender" id="male" value="male" >
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Others</label>
+    </div>
+    <div>
+        <label>Level</label>
+        <input type="checkbox" name="Level" id="Bachelor" value="Bachelor">
+        <label for="Bachelor">Bachelor</label>
+        <input type="checkbox" name="Level" id="Masters" value="Masters">
+        <label for="Masters">Masters</label>
+    </div>
+    <div>
+        <label>Name of your institute
+        <select name="Institute name">
+            <option value="NCIT">NCIT</option>
+            <option value="Cosmos">Cosmos</option>
+            <option value="Thapathali Engineering college">Thapathali Engineering college</option>
+            <option value="Pulchowk Engineering college">Pulchowk Engineering college</option>
+            <option value="NEC">NEC</option>
+            <option value="other">other</option>
+        </select>
+    </label>
+    </div>
+    <div>
+      <label for="comment">Your review about us.</label>  
+      <br>
+      <textarea name="comment" rows="2" column="10" placeholder="Enter your comment here."></textarea>
+    </div>
+    </form>
+</body>
+</html>

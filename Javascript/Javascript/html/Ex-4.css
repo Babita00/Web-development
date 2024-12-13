@@ -1,0 +1,18 @@
+div {
+    width: 50%; /*it takes only 50% width of screen*/
+    margin: 20px auto;/*it creates 20px margin on both sides*/
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+}
+
+/* Apply styles to the first paragraph directly inside the div */
+div>p:first-child {
+    background-color: yellow;
+    color: red;
+}
+
+/* Apply styles to all paragraphs directly inside the div (except the first one) */
+div>p:not(:first-child) {
+    background-color: blue;
+    color: white;
+}
